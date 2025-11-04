@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Оплата | Отель "Престиж"</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <h1 class="logo">Отель "Престиж"</h1>
+        <nav class="nav">
+            <a href="index.html">Главная</a>
+            <a href="rooms.html">Номера</a>
+        </nav>
+    </div>
+</header>
+
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">Оплата бронирования</h2>
+        <div class="form-container">
+            <div class="summary" id="summary"></div>
+            <form id="payment-form">
+                <div class="form-group">
+                    <label>Номер карты</label>
+                    <input type="text" name="card" id="card-number" placeholder="1234 5678 9012 3456" maxlength="19" required />
+                </div>
+                <div class="card-row">
+                    <div class="form-group">
+                        <label>MM/ГГ</label>
+                        <input type="text" name="expiry" placeholder="MM/ГГ" maxlength="5" required />
+                    </div>
+                    <div class="form-group">
+                        <label>CVV</label>
+                        <input type="text" name="cvv" placeholder="CVV" maxlength="3" required />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Имя на карте</label>
+                    <input type="text" name="holder" required />
+                </div>
+                <button type="submit" class="btn-primary">ЗАБРОНИРОВАТЬ</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <!-- футер -->
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/payment.js"></script>
+</body>
+</html>

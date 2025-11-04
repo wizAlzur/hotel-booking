@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Выбор номера | Отель "Престиж"</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <h1 class="logo">Отель "Престиж"</h1>
+        <nav class="nav">
+            <a href="index.html">Главная</a>
+            <a href="rooms.html" class="active">Номера</a>
+        </nav>
+    </div>
+</header>
+
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">Выберите номер</h2>
+        <div class="rooms-grid">
+            <div class="room-card" data-room="standard">
+                <img src="https://via.placeholder.com/300x200?text=Стандарт" alt="Стандарт">
+                <h3>Стандарт</h3>
+                <p>Уютный номер с одной кроватью, Wi-Fi, ТВ</p>
+                <strong>5 000 ₽ / ночь</strong>
+                <button class="btn-select">Выбрать</button>
+            </div>
+            <div class="room-card" data-room="lux">
+                <img src="https://via.placeholder.com/300x200?text=Люкс" alt="Люкс">
+                <h3>Люкс</h3>
+                <p>Просторный номер с видом на город, джакузи</p>
+                <strong>12 000 ₽ / ночь</strong>
+                <button class="btn-select">Выбрать</button>
+            </div>
+            <div class="room-card" data-room="president">
+                <img src="https://via.placeholder.com/300x200?text=Президентский" alt="Президентский">
+                <h3>Президентский</h3>
+                <p>Эксклюзивный номер с личным балконом и баром</p>
+                <strong>25 000 ₽ / ночь</strong>
+                <button class="btn-select">Выбрать</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <!-- тот же футер -->
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/rooms.js"></script>
+</body>
+</html>
